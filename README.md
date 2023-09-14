@@ -2,9 +2,9 @@
 def normal dead:var original = Runner.prototype.gameOver;
 
 Some code to help dino game easier:
-Dino Can't Die (A.k.a Immortal of anything xD):Runner.prototype.gameOver = function(){}
+Dino Can't Die (aka Inmortal to anything xD):Runner.prototype.gameOver = function(){}
 
-UnInmortal:Runner.prototype.gameOver = original
+Un-Inmortal:Runner.prototype.gameOver = original
 
 Set Speed For Dino:Runner.instance_.setSpeed(1000)
 
